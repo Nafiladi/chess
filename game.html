@@ -1,0 +1,25 @@
+<!-- game.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Chess Master - Game</title>
+    <link rel="stylesheet" href="styles.css">
+    <!-- Include chessboard.js and chess.js libraries -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/chessboard.js/1.0.0/css/chessboard.min.css">
+</head>
+<body>
+    <div class="game-container">
+        <h1>Chess Game</h1>
+        <div id="game-status"></div>
+        <div id="timer">Time left: <span id="time-left">30</span> seconds</div>
+        <div id="board" style="width: 400px; margin: 20px auto;"></div>
+        <button id="surrender">Surrender</button>
+    </div>
+
+    <!-- Scripts -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/chess.js/0.10.3/chess.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/chessboard.js/1.0.0/js/chessboard.min.js"></script>
+    <script src="game_logic.js"></script>
+</body>
+</html>
